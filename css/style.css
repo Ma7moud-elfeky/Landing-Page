@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'regualr';
+    src: url(../Fonts/NotoSansJP-Regular.otf);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url(../Fonts/NotoSansJP-Medium.otf);
+}
+@font-face {
+    font-family: 'Bold';
+    src: url(../Fonts/NotoSansJP-Bold.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+h4 {
+    color: #456173;
+    font-family: 'Bold';
+    font-size: 40px;
+    line-height: 5rem;
+    width: 620px;
+}
+p {
+    color: #456173;
+    font-size: 25px;
+    font-family: 'regualr';
+    line-height: 2.5rem;
+    margin-top: 20px;
+}
+.midle{
+    position: relative;
+    width: 100%;
+    background-image: url(../Images/Background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: url(../Images/Background\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*end general*/
+/*start nav*/
+nav{
+    width: 100%;
+    padding: 20px 0px;
+}
+nav .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+nav .brand-name , nav .nav-ul {
+    width: 33%;
+}
+nav .content .brand-name img {
+    
+    width: 167px;
+    height: 37px;   
+}
+nav .content .btn {
+    position: relative;
+    padding: 10px 15px;
+    border: 2px solid #456173;
+    font-family: 'regualr';
+    font-size: 17px;
+    border-radius: 33px;
+    color: #456173;
+    position: relative;
+}
+nav .content .nav-ul {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    position: relative;
+}
+nav .content .nav-ul .nav-li{
+    margin: 0px 20px;
+
+}
+nav .content .nav-ul .nav-li .nav-link{
+    padding: 20px 0px;
+    font-family: 'regualr';
+    font-size: 17px;
+    color: #456173;
+    position: relative;
+    overflow: hidden;
+}
+/*start header*/
+header{
+    width: 100%;
+    padding: 100px  0px;
+    background-color: #fff;
+    position: relative;
+    z-index: 9;
+}
+header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Images/Background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+header .header-content  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+header .header-content .content , 
+header .header-content .image-header{
+    width: 50%;
+}
+header .header-content .image-header{
+    position: relative;
+    overflow: hidden;
+    right: -50px;
+}
+header .header-content .image-header img{
+   width: 100%;
+    height: 700px;
+}
+header .header-content .content p{
+    width: 70%;
+}
+header .header-content .content{
+    width: 80%;
+}
+header .header-content .content .btn{
+    padding: 27px 84px;
+    margin-top: 50px;
+    background-color: #A6ED8E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+    
+}
+header .header-content .content .btn span{
+    font-size: 20 px;
+    color: white;
+}
+header .header-content .image-header img{
+    width: fit-content;
+    height: 838.98px;
+}
+/*end header*/
+
+/* start midle*/
+.midle .container{
+    height: 1080px;
+    padding-top: 212px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.midle .container .content ,
+.midle .container .midle-img{
+    width: 50%;
+}
+.midle .container .content p{
+    width: 90%;
+}
+.midle .container .midle-img{
+    position: relative;
+    bottom: 0;
+}
+/*end midle*/
+
+/*start footer*/
+footer .container{
+    width: 100%;
+    background-image: url(../Images/Background\ 2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+footer .container .head-foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+footer .container .head-foot .head-img{
+    position: relative;
+    float: right;
+    margin-top: 10%;
+}
+footer .container .head-foot h4{
+    margin-left: 10%;
+    color: #FFFFFF;
+}
+footer .container .foot-content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+footer .container .foot-content div{
+    margin-bottom: 3%;
+}
+footer .container .foot-content .link .btn{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #A6ED8E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: fit-content;
+
+}
+footer .container .foot-content .link .btn span{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Bold;
+    font-size: 30px;
+
+}
+footer .container .foot-content .app-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+footer .container .foot-content .app-img img{
+    padding-right: 30px;
+}
+footer .container .Support{
+    padding-top: 1%;
+    margin: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+footer .container .Support span {
+    position: relative;
+    color: #9D9D9D;
+    font-family: regular;
+    font-size: 20px;
+}
+footer .container .Support .priv span{
+    position: relative;
+    padding: 0 25px;
+}
+/*end footer*/
